@@ -1,0 +1,10 @@
+{
+  "name": "my_google_home",
+  "version": "0.0.1",
+  "main": "main.js",
+  "author": "nomnel <laxyz.nomnel@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "google-home-notifier": "^1.2.0"
+  }
+}
