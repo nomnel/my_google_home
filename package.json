@@ -5,6 +5,7 @@
   "author": "nomnel <laxyz.nomnel@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "ejs": "^2.5.7",
     "express": "^4.16.2",
     "google-home-notifier": "^1.2.0"
   }
