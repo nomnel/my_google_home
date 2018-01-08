@@ -1,12 +1,44 @@
 <html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
-</head>
-<body>
-  <form action="/messages" method="post">
-    <input name="body" type="text">
-    <input name="commit" type="submit">
-  </form>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
+    <style type="text/css">
+      <!--
+      body {
+        background-color: #ffe600;
+      }
+      .heading--1 {
+        text-align: center;
+        -webkit-margin-after: 0em;
+        color: #0db8d9;
+        font-size: 5vw;
+      }
+      .form {text-align: center;}
+      .box--lg {padding: 10px;}
+      .form__input {
+        padding: 3.5vw;
+        border-radius: 6px;
+        width: 70vw;
+        border: 1px solid #0db8d9;
+      }
+      .form__btn {
+        width:17vw;
+        padding: 2vw;
+        background-color: #0db8d9;
+        border: 1px solid #ffe600;
+        border-radius: 6px;
+        font-weight: bold;
+        font-size: 5vw;
+        color: #ffe600;
+      }
+      -->
+    </style>
+  </head>
+  <body>
+    <h1 class="heading--1">うちのグーグルさん</h1>
+    <form class="box--lg form" action="/messages" method="post">
+      <input class="form__input" name="body" type="text">
+      <input class="form__btn" name="commit" type="submit">
+    </form>
+  </body>
 </html>
